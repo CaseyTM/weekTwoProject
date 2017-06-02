@@ -1,0 +1,29 @@
+#logo {
+	background-color: #F5005B;
+}
+.home {
+	background-color: #00A5BF;
+}
+.calendar {
+	background-color: #00B7D3;
+}
+.join {
+	background-color: #00D5E7;
+}
+h2, h1, .film-container {
+	background-color: #0B1942;
+	color: #ffffff;
+}
+.other-images {
+	background-color: #E2E2E2;
+}
+
+
+
+
+
+@media (min-width: 545px){
+	* {
+		border: 1px solid black;
+	}
+}
