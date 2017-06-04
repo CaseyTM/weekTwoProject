@@ -131,8 +131,52 @@ footer {
 	color: white;
 	font-family: 'PT Sans', sans-serif;
 }
+.inner-panel {
+	background-color: #0B1942;
+	color: white;
+	width: 35%;
+	height: 45%;
+	text-align: center;
+	padding-top: 5%;
+}
+.panel {
+	width: 13.86%;
+	height: 65px;
+	border: 1px solid #0B1942;
+	background-color: #ffffff;
+}
+#main-wrapper {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	background-color: #0B1942;
+	padding-bottom: 40px;
+}
+#meetup{
+	font-size: 32px;
+	color: #0B1942;
+	background-color: #ffffff;
+	padding: 0px 0px 20px 20px;
+}
+.red {
+	background-color: #F5005B; 
+}
+#june{
+	font-size: 30px;
+	color: white;
+	background-color: #0B1942;
+	padding: 0px 0px 20px 20px;
+	margin: 0px;
+}
+#container {
+	background-color: #0B1942;
+	min-width: 490px;
+}
 
 @media (min-width: 545px){
+	.panel {
+		height: 100px;
+	}
 	.nav {
 		flex-direction: row;
 		margin: 0px;
@@ -211,6 +255,15 @@ footer {
 	#spacer {
 		padding-right: 70%;
 	}
+	.panel {
+		height: 120px;
+	}
+	.inner-panel {
+		height: auto;
+		padding: 0px;
+		margin: 0px;
+		width: 15%;
+	}
 	footer {
 		width: 70%;
 	}
@@ -246,6 +299,6 @@ footer {
 		width: 100%;
 	}
 	body {
-
+		max-width: 1400px;
 	}
 }
